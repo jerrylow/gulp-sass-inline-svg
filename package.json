@@ -1,0 +1,40 @@
+{
+  "author": {
+    "name": "David Mosemann"
+  },
+  "contributors": [
+    {
+      "name": "Jerry Low",
+      "url": "https://github.com/jerrylow"
+    }
+  ],
+  "description": "Converts svg files into a sass function that can then be used as a inline svg for background-image. Based on gulp-sassvg",
+  "scripts": {
+    "lint-js": "standard 'index.js'",
+    "test": "gulp --gulpfile ./tests/test.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "plugin-error": "^1.0.1",
+    "standard": "^16.0.3",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-svgmin": "^3.0.0"
+  },
+  "directories": {},
+  "keywords": [
+    "sass",
+    "scss",
+    "svg",
+    "inline",
+    "gulpplugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gulp-sass-inline-svg",
+  "optionalDependencies": {},
+  "version": "2.0.0"
+}
